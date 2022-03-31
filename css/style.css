@@ -8,6 +8,10 @@ html {
     font-size: 100%;
 }
 
+.ms-container {
+    width: 95%;
+    margin: 0 auto;
+}
 /* HEADER */
 
 /* HEADER TOP */
@@ -44,10 +48,41 @@ html {
     background-position-x: center;
     color: white;
     position: relative;
+    margin-bottom: 3rem;
 }
 
 .ms-jumbo-content {
     position: absolute;
     left: 2rem;
     bottom: 4rem;
+}
+
+/* JUMBOTRON GAMES */
+
+.ms-jumbotron-games {
+    margin-bottom: 3rem;
+}
+
+.ms-jumbotron-games img {
+    border-radius: 1rem;
+}
+
+.ms-jgames {
+    position: relative;
+}
+
+/* ANIMATION HOVER JUMBOTRON GAMES */
+
+.ms-jgames:hover {
+    animation: msmove 5s infinite;
+}
+
+.ms-border-img:hover {
+    border: 3px solid #0072ce;
+}
+
+@keyframes msmove {
+    0%   {bottom: 0px;}
+    50%  {bottom: 40px;}
+    100% {bottom: 0px;}
 }
