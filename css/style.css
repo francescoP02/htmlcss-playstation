@@ -1,3 +1,19 @@
-body {
-    background-color: aqua;
+/* HEADER */
+
+/* HEADER TOP */
+.ms-headertop {
+    background-color: black;
+    height: 50px;
+    line-height: 50px;
+}
+
+.ms-headertop img {
+    height: 50%;
+    margin-right: 1rem;
+}
+
+/* HEADER BOTTOM */
+
+.ms-headerbottom {
+    height: 50%;
 }
