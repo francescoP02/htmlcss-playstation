@@ -1,3 +1,13 @@
+/* COMMON */
+
+img {
+    width: 100%;
+}
+
+html {
+    font-size: 100%;
+}
+
 /* HEADER */
 
 /* HEADER TOP */
@@ -15,5 +25,29 @@
 /* HEADER BOTTOM */
 
 .ms-headerbottom {
-    height: 50%;
+    height: 80px;
+}
+
+/* MAIN */
+
+.ms-mt-50 {
+    margin-top: 130px;
+}
+
+/* JUMBOTRON */
+
+.jumbotron {
+    height: 100vh;
+    margin-top: 130px;
+    background-image: url(../img/jumbo-bg.png);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    color: white;
+    position: relative;
+}
+
+.ms-jumbo-content {
+    position: absolute;
+    left: 2rem;
+    bottom: 4rem;
 }
