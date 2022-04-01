@@ -150,3 +150,15 @@ body {
     border: 3px solid #0072ce;
     border-radius: 2rem;
 }
+
+/* PLUS */
+
+.ms-plus {
+    background-color: #bebcbb;
+}
+
+.ms-btn-plus {
+    background-color: #d9dadc;
+    color: #0072ce;
+    font-weight: bold;
+}
