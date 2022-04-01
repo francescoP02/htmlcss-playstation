@@ -162,3 +162,10 @@ body {
     color: #0072ce;
     font-weight: bold;
 }
+
+/* NOW */
+
+.ms-now {
+    background-color: #161c3b;
+    color: white;
+}
