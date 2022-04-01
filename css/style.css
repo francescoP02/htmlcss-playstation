@@ -8,10 +8,20 @@ html {
     font-size: 100%;
 }
 
-.ms-container {
-    width: 95%;
-    margin: 0 auto;
+body {
+    font-family: Arial, Helvetica, sans-serif;
 }
+
+.ms-container {
+    width: 90%;
+    margin: 0 auto;
+    max-width: 1170px;
+}
+
+.ms-btn {
+    border-radius: 2rem;
+}
+
 /* HEADER */
 
 /* HEADER TOP */
@@ -42,7 +52,7 @@ html {
 /* JUMBOTRON */
 
 .jumbotron {
-    height: 100vh;
+    height: 70vh;
     margin-top: 130px;
     background-image: url(../img/jumbo-bg.png);
     background-repeat: no-repeat;
@@ -84,7 +94,7 @@ html {
 
 @keyframes msmove {
     0%   {bottom: 0px;}
-    50%  {bottom: 40px;}
+    50%  {bottom: 20px;}
     100% {bottom: 0px;}
 }
 
@@ -103,6 +113,8 @@ html {
     border-bottom: 3px solid #0072ce;
 }
 
+/* BANNER */
+
 .banner {
     height: 100vh;
     margin-top: 130px;
@@ -111,11 +123,30 @@ html {
     background-position-x: center;
     color: white;
     position: relative;
-    margin-bottom: 3rem;
 }
 
-.ms-jumbo-content {
+.ms-banner-content {
     position: absolute;
     left: 2rem;
     bottom: 4rem;
+}
+
+/* RELEASE */
+
+.ms-release .card {
+    background-color: #1f1f1f;
+}
+
+.ms-rounded {
+    border-radius: 2rem;
+}
+
+.ms-release {
+    color: white;
+    background-color: #1f1f1f;
+}
+
+.ms-release .card:hover {
+    border: 3px solid #0072ce;
+    border-radius: 2rem;
 }
