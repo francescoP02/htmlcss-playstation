@@ -169,3 +169,38 @@ body {
     background-color: #161c3b;
     color: white;
 }
+
+/* FOOTER */
+footer {
+    background-color: #00439c;
+    color: white;
+    font-size: .8rem;
+}
+
+.play-logo-footer {
+    width: 8rem;
+}
+
+.globe {
+    width: 1.1rem;
+}
+
+.sony-logo-footer {
+    height: 4rem;
+    width: auto;
+}
+
+.col ul{
+    list-style: none;
+    color: inherit;
+}
+
+.col a {
+    text-decoration: none;
+    color: white;
+}
+
+.ms-underline {
+    text-decoration: underline;
+    color: white;
+}
