@@ -22,7 +22,7 @@ html {
 }
 
 .ms-headertop img {
-    width: 100px;
+    width: auto;
     height: 50%;
     margin-right: 1rem;
 }
@@ -101,4 +101,21 @@ html {
 
 .ms-card:hover {
     border-bottom: 3px solid #0072ce;
+}
+
+.banner {
+    height: 100vh;
+    margin-top: 130px;
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    color: white;
+    position: relative;
+    margin-bottom: 3rem;
+}
+
+.ms-jumbo-content {
+    position: absolute;
+    left: 2rem;
+    bottom: 4rem;
 }
