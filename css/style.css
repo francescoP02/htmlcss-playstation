@@ -25,22 +25,68 @@ body {
 /* HEADER */
 
 /* HEADER TOP */
-.ms-headertop {
+.ms-black {
     background-color: black;
-    height: 50px;
-    line-height: 50px;
 }
 
-.ms-headertop img {
+.ms-black img {
+    height: 1rem;
     width: auto;
-    height: 50%;
-    margin-right: 1rem;
+    margin: 1rem;
 }
 
 /* HEADER BOTTOM */
+.navbar-light .navbar-nav .nav-link {
+    color: black;
+}
 
-.ms-headerbottom {
-    height: 80px;
+/* DROPDOWN MENU */
+.dropdown-toggle::after {
+    display: none;
+}
+
+.dropdown-toggle img {
+    width: 10px;
+    height: auto;
+}
+
+.d-flex img {
+    height: 5rem;
+    width: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.dropdown-menu[data-bs-popper] {
+    right: 0;
+    margin-top: 0;
+}
+
+.nav-item.dropdown {
+    position: initial;
+}
+
+.nav-link:focus img {
+    transform: rotate(180deg);
+    transition: .2s;
+}
+
+.ms-nright .dropdown-menu {
+    width: 100vw;
+}
+
+.ms-item {
+    list-style: none;
+}
+
+.ms-item a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.ms-ditem a {
+    text-decoration: none;
+    color: inherit;
 }
 
 /* MAIN */
